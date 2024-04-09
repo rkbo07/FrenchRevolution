@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The French Revolution</title>
+
+        <!-- <script src = "js/myjs.js"></script> -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+
+            .button {
+                background-color:#192841;
+                color: white;
+                border-radius: 100px;
+                padding: 3px 7px;
+                font-size: 12px;
+            }
+
+            .circle {
+                padding: 13px 20px;
+                border-radius: 50%;
+                background-color: #192841;
+                color: #fff;
+                max-height: 50px;
+                z-index: 2;
+            }
+
+            .how-it-works.row .col-2 {
+                align-self: stretch;
+            }
+            .how-it-works.row .col-2::after {
+                content: "";
+                position: absolute;
+                border-left: 3px solid #192841;
+                z-index: 1;
+            }
+            .how-it-works.row .col-2.bottom::after {
+                height: 50%;
+                left: 50%;
+                top: 50%;
+            }
+            .how-it-works.row .col-2.full-right::after {
+                height: 100%;
+                left: calc(50% - 3px);
+            }
+
+            .how-it-works.row .col-2.full-left::after {
+                height: 100%;
+                left: calc(50% - 0.2px);
+            }
+
+            .how-it-works.row .col-2.top::after {
+                height: 50%;
+                left: 50%;
+                top: 0;
+            }
+            .timeline div {
+                padding: 0;
+                height: 40px;
+            }
+            .timeline hr {
+                border-top: 3px solid #192841;
+                margin: 0;
+                top: 17px;
+                position: relative;
+            }
+            .timeline .col-2 {
+                display: flex;
+                overflow: hidden;
+            }
+            .timeline .corner {
+                border: 3px solid #192841;
+                width: 100%;
+                position: relative;
+                border-radius: 15px;
+            }
+            .timeline .top-right {
+                left: 50%;
+                top: -50%;
+            }
+            .timeline .left-bottom {
+                left: -50%;
+                top: calc(50% - 3px);
+            }
+            .timeline .top-left {
+                left: -50%;
+                top: -50%;
+            }
+            .timeline .right-bottom {
+                left: 50%;
+                top: calc(50% - 3px);
+            }
+            
+            .in-between {
+                width: 100px;
+                height: 100px;
+                font-size: 12px;
+                text-align: center;
+                border-radius: 5px;
+                border: 3px solid #192841;
+                padding: 10px;
+                font-weight: 500;
+            }
+        </style>
+    </head>
+
+    <body>
+         <!-- navbar -->
+         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #192841">
+            <a class="navbar-brand" href="index.html">The French Revolution</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="vocab.html">Vocab</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="demo.html">Pathway</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cited.html">Work Cited</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+        <!-- end of navbar -->
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Quiz <br /></h3>
+                    <p>
+                        <br />
+                        1. The Thermidorian Reaction was a response to<br />
+                        a) Economic downturns and food shortages <br />
+                        b) Radical excesses and authoritarianism of the Jacobins<br />
+                        c) Threats of foreign invasion<br />
+                        d) The rise of Napoleon Bonaparte<br />
+                        
+                        <br />
+                        <a href="answer10a.html">
+                            <button class="button" href="answer10a.html">answer</button>
+                        </a>
+                        <br /> 
+                        <br />
+                        2. What role did the Law of 22 Prairial play in the Thermidorian Reaction?
+                        <br />
+                        a) It extended the powers of the Committee of Public Safety <br />
+                        b) It intensified the Reign of Terror <br />
+                        c) It limited the authority of the revolutionary tribunals and contributed to the downfall of Robespierre <br />
+                        d) It established a new calendar system<br />
+                        
+                        <br />
+                        <a href="answer10b.html">
+                            <button class="button" href="answer10b.html">answer</button>
+                        </a>
+                        <br /> 
+                        <br />
+                        3. How did the Thermidorian Reaction impact the power structure in France?
+                        <br />
+                        a) It strengthened the authority of the Jacobins <br />
+                        b) It led to the rise of the Girondins to power <br />
+                        c) It weakened the radical factions and restored more moderate rule<br />
+                        d) It resulted in the establishment of a military dictatorship
+                                                <br />
+                        
+                        <br />
+                        <a href="answer10c.html">
+                            <button class="button" href="answer10c.html">answer</button>
+                        </a>
+                        <br /> 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-1">
+                    <a href="demo.html">
+                        <button class="button" href="demo.html">continue</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-5"></div>
+                
+            </div>
+        </div>
+    </body>
+</html>
